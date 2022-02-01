@@ -1,0 +1,29 @@
+.films__list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(3, 3fr);
+	grid-gap: 50px;
+}
+
+.film__list{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+ list-style-type: none;
+}
+
+.film__item {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	padding: 20px;
+}
+
+.film__select{
+	display: block;
+	margin: 0 auto;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	padding: 5px;	
+}
+.film__select:hover{
+	background-color: darkcyan;
+}
